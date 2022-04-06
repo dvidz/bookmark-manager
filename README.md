@@ -48,7 +48,7 @@
 
 ### Documentation phpdoc
 1. run symfony server
-   1. `symfony server:start --dir=phpdoc`
+   1. `symfony server:start --dir=build/doc`
    2. Open browser to view phpdoc in html format : `http://127.0.0.1:8001` or `http://127.0.0.1:8000`
 
 ### Directory structure

@@ -1,6 +1,10 @@
 .idea/
 INSTRUCTIONS.md
 
+###> phpDocumentor ###
+/build/doc/
+###< phpDocumentor ###
+
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php

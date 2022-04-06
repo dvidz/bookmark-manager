@@ -40,7 +40,7 @@ jobs:
       - name: Run the tests
         run: make tests
 
-      - name: Generate docs
-        uses: phpDocumentor/phpDocumentor@master
+      - name: Generate phpDoc
+        uses: gpupo/actions-phpDocumentor@1.0
         with:
-          args: -d src -t build/docs
+          dir: './build/doc/'
